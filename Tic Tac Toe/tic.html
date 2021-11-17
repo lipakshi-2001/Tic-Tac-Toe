@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Tic Tac Toe</title>
+ 	<link rel="stylesheet" type="text/css" href="tic.css">
+ 	<!-- defer helps in ,loading the script after the execution of body tag-->
+ 	<script type="text/javascript" src="tic.js" defer></script>
+ </head>
+ <body>
+ 	<!-- Using class for css and id for js . Not using class tag in js for seperation -->
+ 	<!--Short hand : .className*no_times u requre that class creates it for u-->
+	 <div class="board" id="board">
+ 		<div class="cell" data-cell></div>
+		 <div class="cell" data-cell></div>
+		 <div class="cell" data-cell></div>
+		 <div class="cell" data-cell></div>
+		 <div class="cell" data-cell></div>
+		 <div class="cell" data-cell></div>
+		 <div class="cell" data-cell></div>
+		 <div class="cell" data-cell></div>
+		 <div class="cell" data-cell></div>
+ 	</div>
+	 <div class="winning-message " id="winningMessage">
+     <div data-winning-message-text></div>
+	 <button id="restartButton">Restart</button>
+	</div>
+ </body>
+ </html>
